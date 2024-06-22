@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Catálogo Ke Impresión</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <img src="logo.png" alt="Logo" class="logo"><h1>Catálogo Ke Impresión</h1>
+    </header>
+    <main>
+        <div class="producto" onclick="showProductName('Fotocopias')">
+            <img src="producto1.png" alt="Producto 1">
+            <h2>Fotocopias</h2>
+            <p>Fotocopias de alta calidad.</p>
+            <p class="precio">$10.00</p>
+        </div>
+        <div class="producto" onclick="showProductName('Impresiones')">
+            <img src="producto2.png" alt="Producto 2">
+            <h2>Impresiones </h2>
+            <p>Impresiones de formato pequeño o grande.</p>
+            <p class="precio">$5.00</p>
+        </div>
+        <div class="producto" onclick="showProductName('Lapices')">
+            <img src="producto3.png" alt="Producto 3">
+            <h2>Lapices</h2>
+            <p>Variedad de lapices escolares y de dibujo.</p>
+            <p class="precio">$15.00</p>
+        </div>
+    </main>
+    <script src="scripts.js"></script>
+</body>
+</html>
